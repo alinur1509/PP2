@@ -139,7 +139,7 @@ class Game(object):
             if len(self.block_list_eat) == 0:
                 self.game_over = True
      
-            elif self.score <= -10:
+            elif self.score <= -5:
                 self.game_over = True
       
     def display_frame(self, screen):
